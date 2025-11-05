@@ -59,4 +59,5 @@ Video penjelasan proyek ini disajikan untuk memberikan alur berpikir dan demonst
 ### 3.  Demonstrasi logika **Checkout** (penghitungan harga, pengurangan stok, dan tampilan *invoice* di halaman yang sama).
 ### 4.  Penggunaan `localStorage` untuk manajemen sesi.
 ### 5.  Validasi *form* dan *alert/modal box* sesuai kriteria UTS.
-## berikut Link Youtube saya ()
+## berikut Link Youtube saya (https://youtu.be/nZBi3UCrGx4?si=QmRojA06vCCSHk-z)
+
