@@ -40,5 +40,20 @@ Aplikasi ini mencakup lima halaman utama dengan fungsionalitas dinamis:
 
 ## ⚙️ Struktur Proyek (Modularitas)
 
-Struktur file dan modularitas mengikuti panduan soal UTS:
+Struktur file dan modularitas mengikuti panduan soal UTS: <p>
 ![gambar1](mo1.PNG) <p>
+## 🛠️ Teknologi yang Digunakan
+
+* **HTML5:** Struktur dasar dan semantik.
+* **CSS3:** Styling dan *layouting* (Flexbox/Grid).
+* **JavaScript (ES6):** Manipulasi DOM, validasi *form*, manajemen data Array JSON, dan `localStorage` untuk manajemen sesi.
+
+## 📝 Penjelasan Video Presentasi
+
+Video penjelasan proyek ini disajikan untuk memberikan alur berpikir dan demonstrasi fitur secara langsung. Poin-poin yang dibahas dalam video meliputi:
+
+### 1.  Penjelasan modularitas file (`data.js` vs `script.js`).
+### 2.  Demonstrasi fitur inti **Filter Riwayat Transaksi** berdasarkan **Role** (`Admin` vs `User`).
+### 3.  Demonstrasi logika **Checkout** (penghitungan harga, pengurangan stok, dan tampilan *invoice* di halaman yang sama).
+### 4.  Penggunaan `localStorage` untuk manajemen sesi.
+### 5.  Validasi *form* dan *alert/modal box* sesuai kriteria UTS.
