@@ -41,3 +41,4 @@ Aplikasi ini mencakup lima halaman utama dengan fungsionalitas dinamis:
 ## ⚙️ Struktur Proyek (Modularitas)
 
 Struktur file dan modularitas mengikuti panduan soal UTS:
+![gambar1](mo1.PNG) <p>
