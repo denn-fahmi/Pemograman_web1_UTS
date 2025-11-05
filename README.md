@@ -45,9 +45,11 @@ Struktur file dan modularitas mengikuti panduan soal UTS: <p>
 ## 🛠️ Teknologi yang Digunakan
 
 * **HTML5:** Struktur dasar dan semantik.
+  ![gambar2](mo2.PNG) <p>
 * **CSS3:** Styling dan *layouting* (Flexbox/Grid).
+  ![gambar3](mo3.PNG) <p>
 * **JavaScript (ES6):** Manipulasi DOM, validasi *form*, manajemen data Array JSON, dan `localStorage` untuk manajemen sesi.
-
+![gambar4](mo4.PNG) <p>
 ## 📝 Penjelasan Video Presentasi
 
 Video penjelasan proyek ini disajikan untuk memberikan alur berpikir dan demonstrasi fitur secara langsung. Poin-poin yang dibahas dalam video meliputi:
@@ -57,3 +59,4 @@ Video penjelasan proyek ini disajikan untuk memberikan alur berpikir dan demonst
 ### 3.  Demonstrasi logika **Checkout** (penghitungan harga, pengurangan stok, dan tampilan *invoice* di halaman yang sama).
 ### 4.  Penggunaan `localStorage` untuk manajemen sesi.
 ### 5.  Validasi *form* dan *alert/modal box* sesuai kriteria UTS.
+## berikut Link Youtube saya ()
