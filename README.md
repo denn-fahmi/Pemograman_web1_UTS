@@ -2,7 +2,7 @@
 Nama: Den Fahmi Satria <p>
 Nim: 312410523 <p>
 Kelas: TI.24.A5 <p>
-[Lihat file JavaScript] (script.js)
+[Lihat file JavaScript](script.js)
 # 📚 Aplikasi Web Pemesanan Buku Sederhana (Front-End Simulation)
 
 Aplikasi web sederhana ini dibuat untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web 1. Fokus utama proyek ini adalah demonstrasi penguasaan fundamental **HTML Semantik**, **CSS Styling**, dan **JavaScript DOM Manipulation** untuk menciptakan alur kerja aplikasi dinamis.
