@@ -43,15 +43,15 @@ Aplikasi ini mencakup lima halaman utama dengan fungsionalitas dinamis:
 Struktur file dan modularitas mengikuti panduan soal UTS: <p>
 ![gambar1](mo1.PNG) <p>
 ## Berikut Link untuk masing-masing code nya
-[Lihat file JavaScript](script.js) <p>
-[Lihat file Java (data)](data.js) <p>
-[Lihat file CSS](style.css) <p>
-[Lihat file Index](Index.html) <p>
-[Lihat file Dashboard](dashboard.html) <p>
-[Lihat file Stok](stok.html) <p>
-[Lihat file Checkout](checkout.html) <p>
-[Lihat file Dashboard](dashboard.html) <p>
-[Lihat file history (file tambahan dari saya)](history.html) <p>
+[Lihat file JavaScript (script.js)](script.js) <p>
+[Lihat file Java (data.js)](data.js) <p>
+[Lihat file CSS (syle.css)](style.css) <p>
+[Lihat file Index (index.html)](Index.html) <p>
+[Lihat file Dashboard (dashboard.html)](dashboard.html) <p>
+[Lihat file Stok (stok.html)](stok.html) <p>
+[Lihat file Checkout (checkout.html)](checkout.html) <p>
+[Lihat file tracking (tracking html)](tracking.html) <p>
+[Lihat file history (file tambahan dari saya / history.html)](history.html) <p>
 ## Teknologi yang Digunakan
 
 * **HTML5:** Struktur dasar dan semantik.
