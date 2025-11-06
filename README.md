@@ -2,7 +2,7 @@
 Nama: Den Fahmi Satria <p>
 Nim: 312410523 <p>
 Kelas: TI.24.A5 <p>
-[Lihat file JavaScript](script.js)
+
 # 📚 Aplikasi Web Pemesanan Buku Sederhana (Front-End Simulation)
 
 Aplikasi web sederhana ini dibuat untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web 1. Fokus utama proyek ini adalah demonstrasi penguasaan fundamental **HTML Semantik**, **CSS Styling**, dan **JavaScript DOM Manipulation** untuk menciptakan alur kerja aplikasi dinamis.
@@ -38,11 +38,21 @@ Aplikasi ini mencakup lima halaman utama dengan fungsionalitas dinamis:
 ### 5. Tracking Pengiriman (`tracking.html`)
 * Menerima input Nomor Delivery Order (DO) dan menampilkan status pengiriman, detail ekspedisi, dan riwayat perjalanan (simulasi *timeline*).
 
-## ⚙️ Struktur Proyek (Modularitas)
+## Struktur Proyek (Modularitas)
 
 Struktur file dan modularitas mengikuti panduan soal UTS: <p>
 ![gambar1](mo1.PNG) <p>
-## 🛠️ Teknologi yang Digunakan
+## Berikut Link untuk masing-masing code nya
+[Lihat file JavaScript](script.js) <p>
+[Lihat file Java (data)](data.js) <p>
+[Lihat file CSS](style.css) <p>
+[Lihat file Index](Index.html) <p>
+[Lihat file Dashboard](dashboard.html) <p>
+[Lihat file Stok](stok.html) <p>
+[Lihat file Checkout](checkout.html) <p>
+[Lihat file Dashboard](dashboard.html) <p>
+[Lihat file history (file tambahan dari saya)](history.html) <p>
+## Teknologi yang Digunakan
 
 * **HTML5:** Struktur dasar dan semantik.
   ![gambar2](mo2.PNG) <p>
@@ -50,7 +60,7 @@ Struktur file dan modularitas mengikuti panduan soal UTS: <p>
   ![gambar3](mo3.PNG) <p>
 * **JavaScript (ES6):** Manipulasi DOM, validasi *form*, manajemen data Array JSON, dan `localStorage` untuk manajemen sesi.
 ![gambar4](mo4.PNG) <p>
-## 📝 Penjelasan Video Presentasi
+## Penjelasan Video Presentasi
 
 Video penjelasan proyek ini disajikan untuk memberikan alur berpikir dan demonstrasi fitur secara langsung. Poin-poin yang dibahas dalam video meliputi:
 
