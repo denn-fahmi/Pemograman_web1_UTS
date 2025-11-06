@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking Pengiriman | Bookworm's Sanctuary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="app-header">
+        <div class="app-logo">📚 Sanctuary</div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="stok.html">Katalog</a></li>
+                <li><a href="tracking.html">Tracking</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Lacak Pengiriman</h2>
+        <form id="trackingForm" style="max-width: 500px; margin-bottom: 30px;">
+            <div class="form-group">
+                <label for="nomorDO">Input Nomor Delivery Order (Contoh: 20230012):</label>
+                <input type="text" id="nomorDO" placeholder="Masukkan Nomor DO" required>
+            </div>
+            <button type="submit" class="btn primary-btn">Cari</button>
+        </form>
+        
+        <section id="trackingResult">
+            </section>
+    </main>
+    
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

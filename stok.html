@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Buku | Bookworm's Sanctuary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="app-header">
+        <div class="app-logo">📚 Sanctuary</div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="stok.html">Katalog</a></li>
+                <li><a href="tracking.html">Tracking</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Katalog Buku (Stok Tersedia)</h2>
+        
+        <section id="catalogGrid" class="catalog-grid">
+            </section>
+
+        <h2 style="margin-top: 50px;">Tambah Stok Buku Baru</h2>
+        <form id="formTambahStok">
+            <div class="form-group">
+                <label for="newKode">Kode Barang:</label>
+                <input type="text" id="newKode" required>
+            </div>
+            <div class="form-group">
+                <label for="newNama">Nama Barang:</label>
+                <input type="text" id="newNama" required>
+            </div>
+            <div class="form-group">
+                <label for="newStok">Stok:</label>
+                <input type="number" id="newStok" required>
+            </div>
+            <div class="form-group">
+                <label for="newHarga">Harga (Angka saja):</label>
+                <input type="text" id="newHarga" required>
+            </div>
+            <button type="submit" class="btn primary-btn">Tambah Stok</button>
+        </form>
+    </main>
+    
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

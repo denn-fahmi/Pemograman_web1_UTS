@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Transaksi | Bookworm's Sanctuary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="app-header">
+        <div class="app-logo">📚 Sanctuary</div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="stok.html">Katalog</a></li>
+                <li><a href="tracking.html">Tracking</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>History Transaksi</h2>
+        
+        <section class="transaction-history">
+            <table class="history-table">
+                <thead>
+                    <tr>
+                        <th>No. Faktur</th>
+                        <th>Tanggal</th>
+                        <th>Pelanggan</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="historyTableBody">
+                    </tbody>
+            </table>
+            <p id="emptyHistoryMessage" style="display: none; text-align: center; margin-top: 30px; color: #666;">Belum ada riwayat transaksi yang tercatat.</p>
+        </section>
+    </main>
+    
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

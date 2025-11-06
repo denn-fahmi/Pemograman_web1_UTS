@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Bookworm's Sanctuary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="login-container">
+        <section class="login-card">
+            <h1 class="app-logo">📚 Sanctuary</h1>
+            <h2>Masuk ke Akun Anda</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="contoh@domain.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Min 6 karakter" required>
+                </div>
+                <button type="submit" id="loginButton" class="btn primary-btn">Login</button>
+            </form>
+
+            <div class="login-footer">
+                <button id="forgotPasswordBtn" class="link-btn">Lupa Password?</button>
+                <span>|</span>
+                <button id="registerBtn" class="link-btn">Daftar</button>
+            </div>
+        </section>
+    </main>
+
+    <div id="forgotPasswordModal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <button class="close-btn">&times;</button>
+            <h3>Lupa Password</h3>
+            <p>Fitur reset password di sini.</p>
+        </div>
+    </div>
+    <div id="registerModal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <button class="close-btn">&times;</button>
+            <h3>Daftar Akun Baru</h3>
+            <p>Fitur registrasi akun di sini.</p>
+        </div>
+    </div>
+    
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
