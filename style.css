@@ -1,0 +1,382 @@
+/* tugas-uts-web1/css/style.css */
+
+/* --- Global Reset & Variabel Tema (Kreativitas Tambahan) --- */
+:root {
+    --color-primary: #1a237e; /* Navy Blue */
+    --color-secondary: #ffc107; /* Gold/Amber */
+    --color-background: #f8f8f8;
+    --color-text: #333;
+    --color-success: #28a745;
+    --color-warning: #ffb700;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* --- Navigation Bar (Header & Nav) --- */
+.app-header {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 15px 30px;
+    /* Menggunakan Flexbox untuk Navigasi */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-logo {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* --- Container Utama --- */
+main {
+    padding: 40px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+/* --- Styling Form Umum --- */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--color-secondary);
+    outline: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.primary-btn {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.primary-btn:hover {
+    background-color: #151a66;
+}
+
+/* --- Index/Login Page Specific --- */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: var(--color-primary); /* Background Navy */
+}
+
+.login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-footer {
+    margin-top: 20px;
+}
+
+.link-btn {
+    background: none;
+    border: none;
+    color: var(--color-primary);
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+/* --- Dashboard Specific --- */
+.dashboard-grid {
+    /* Desain Kreatif: Grid Menu */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.menu-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* --- Katalog/Stok Specific --- */
+.catalog-grid {
+    /* JS akan mengisi elemen di sini */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.book-card {
+    /* <figure> untuk setiap buku (Semantik) */
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.book-card img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.book-details {
+    padding: 15px;
+}
+
+.book-details figcaption {
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.book-details p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.stock-info {
+    font-weight: bold;
+    color: var(--color-success);
+}
+
+/* --- Tracking Specific --- */
+.tracking-status-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-top: 30px;
+}
+
+.status-label {
+    font-size: 1.5rem;
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+/* Kreativitas: Progress Bar Dinamis */
+.progress-indicator {
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    transition: width 0.6s ease-in-out, background-color 0.6s;
+    width: 0; /* JS akan mengatur lebar ini */
+}
+
+.status-dalam-perjalanan {
+    background-color: var(--color-warning);
+}
+
+.status-dikirim {
+    background-color: var(--color-success);
+}
+
+.tracking-history ul {
+    list-style: none;
+    padding-left: 10px;
+    border-left: 2px solid #ddd;
+}
+
+.tracking-history li {
+    padding-left: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 0.9rem;
+}
+
+.tracking-history li::before {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 5px;
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+/* --- Modal Box Styling (Interaksi UI) --- */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    transform: translateY(-50px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.modal.active .modal-content {
+    transform: translateY(0);
+}
+
+/* --- History/Transaction Specific (BARU) --- */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.history-table th, .history-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+.history-table th {
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.history-table tr:hover {
+    background-color: #f4f4f4;
+}
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block;
+    cursor: default;
+}
+/* Style untuk setiap status */
+.status-badge.selesai { background-color: #d4edda; color: #155724; }
+.status-badge.menunggu { background-color: #fff3cd; color: #856404; }
+.status-badge.batal { background-color: #f8d7da; color: #721c24; }
+.status-badge.track { 
+    background-color: #cce5ff; 
+    color: #004085; 
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.status-badge.track:hover {
+    background-color: #a8d2ff;
+}
