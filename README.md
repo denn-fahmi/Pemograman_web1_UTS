@@ -1,7 +1,7 @@
 # Pemograman_web1_UTS
-Nama: Den Fahmi Satria
-Nim: 312410523
-Kelas: TI.24.A5
+Nama: Den Fahmi Satria <p>
+Nim: 312410523 <p>
+Kelas: TI.24.A5 <p>
 [Lihat file JavaScript] (script.js)
 # 📚 Aplikasi Web Pemesanan Buku Sederhana (Front-End Simulation)
 
@@ -9,7 +9,7 @@ Aplikasi web sederhana ini dibuat untuk memenuhi Ujian Tengah Semester (UTS) mat
 
 Proyek ini mensimulasikan proses pemesanan buku, mulai dari login hingga pencatatan riwayat transaksi. Seluruh data (pengguna, katalog, riwayat) dikelola di sisi klien menggunakan variabel Array JSON (`data.js`) tanpa menggunakan *backend* atau *database* server.
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 Aplikasi ini mencakup lima halaman utama dengan fungsionalitas dinamis:
 
